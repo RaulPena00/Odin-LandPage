@@ -1,0 +1,140 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin:0%
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin:0%;
+}
+
+/*Head start*/
+
+.container-head{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #1F2937;
+    padding-bottom: 50px;
+}
+
+.container-head h4{
+    margin-right:700px;
+    margin-left: 165px;
+    margin-top: 13px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container-head p{
+    margin-right: 15px;
+    color: #E5E7EB;
+}
+
+/*Presentation start*/
+
+.container-presentation{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    padding-bottom: 50px;
+    align-items: flex-end;
+}
+
+.content-container{
+    width: 700px;
+    margin-right:120px;
+    margin-left: 165px;
+}
+
+.container-presentation h1{
+    font-size: 48px;
+    color:#F9FAF8
+}
+
+.container-presentation .subtext{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.container-presentation button{
+    width: 100px;
+    height: 28px;
+    border-radius: 8px;
+    color: #f9faf8;
+    background-color: #3882F6;
+}
+
+.container-presentation .img-place{
+    background-color: gray;
+    color:#E5E7EB;
+    height: 160px;
+    width: 400px;
+}
+
+.img-place p{
+    padding: 60px;
+    padding-left:80px;
+}
+
+/*Info start*/
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-container h2{
+    align-self: center;
+    justify-self: center;
+}
+
+.boxes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boxes-container .text{
+    text-align: center;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.box{
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    margin-left:40px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+
+
+
+.container{
+    border: 2px solid red;
+}
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
+
+button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}   
